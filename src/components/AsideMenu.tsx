@@ -1,4 +1,4 @@
-import { Flex, List, ListItem, Stack, Link } from "@chakra-ui/react";
+import { Flex, List, ListItem, Link } from "@chakra-ui/react";
 
 const options = [
   {
