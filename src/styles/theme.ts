@@ -9,6 +9,9 @@ export const theme = extendTheme({
   colors: {
     background: "#000",
     border: "#2F3336",
+
+    blue: "#1D9BF0",
+    gray: "#6E767D",
   },
 
   fonts: {

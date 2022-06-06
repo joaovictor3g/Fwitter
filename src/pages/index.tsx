@@ -1,12 +1,21 @@
-import { AsideMenu } from "@/components/AsideMenu";
-import { Box, Heading, Link, VStack } from "@chakra-ui/react";
+import { FweetBox } from "@/components/shared/FweetBox";
+import { WhatHappening } from "@/components/shared/WhatHappening";
+import { Page } from "@/layout/Page";
 import type { NextPage } from "next";
 
 const Home: NextPage = () => {
   return (
-    <VStack maxW={1200} w="100%">
-      <AsideMenu />
-    </VStack>
+    <Page>
+      <WhatHappening />
+
+      <FweetBox />
+      <FweetBox />
+      <FweetBox />
+
+      <FweetBox />
+
+      <FweetBox />
+    </Page>
   );
 };
 
